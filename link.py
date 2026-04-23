@@ -14,8 +14,9 @@ import win32process
 # ==================== 配置 ====================
 class TDXConfig:
     process = "TdxW.exe"
-    dll = "Viewthem.dll"
-    offset = 0x160A64
+    dll = "Viewthem64.dll"
+    offset = 0x163588
+# 搜到两个地址 163588 1EF4DE
 
 class THSConfig:
     process = "hexin.exe"
