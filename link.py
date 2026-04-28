@@ -20,7 +20,7 @@ class TDXConfig:
 
 class THSConfig:
     process = "hexin.exe"
-    base_offset = 0x01E9A5B0
+    base_offset = 0x01EAFCE0
     pointer_offset = 0x1
     interval = 1
 
