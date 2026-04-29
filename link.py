@@ -214,7 +214,7 @@ def ths_to_tdx_loop(enabled: threading.Event, tdx_cfg: TDXConfig, ths_cfg: THSCo
                     last_code = code
         except Exception as e:
             log("THS->TDX", str(e))
-        time.sleep(ths_cfg.interval)
+        time.sleep(0.01)
 
 # ==================== 主程序 ====================
 def main():
